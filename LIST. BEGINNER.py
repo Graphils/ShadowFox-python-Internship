@@ -7,7 +7,7 @@ print(len(justice_league))
 justice_league.extend(["Batgirl", "Nightwing"])
 print(justice_league)
 
-# Wonder woman is now the leader of the justice league. Move her to the beginning the lisr
+# Wonder woman is now the leader of the justice league. Move her to the beginning the list 
 justice_league.remove("Wonder woman")
 justice_league.insert(0, "Wonder woman")
 print(justice_league)
